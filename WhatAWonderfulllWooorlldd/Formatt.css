@@ -1,0 +1,44 @@
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_C_cYFmEs4mxC25PJo41qn7IN0riKafCu4w&s");
+
+}
+
+
+
+h1 {
+	color: yellow;
+	background-color: #997c4d;
+	border: 3px solid black;
+}
+h2 {
+	color: red;
+	background-color: #898f8b;
+	border: 3px solid black;
+}
+
+table {
+	background-color: #b56621;
+	border: 3px solid black;
+	height: 1000px;
+	width: 100%
+}
+
+.machu {
+	background-image: url("https://i.natgeofe.com/n/819ea774-aa80-435e-af5a-ae56efee7ce3/92491.jpg");
+}
+.collosium {
+	background-image: url("https://cdn.britannica.com/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg");
+}
+.christ {
+	background-image: url("https://news.artnet.com/app/news-upload/2024/10/GettyImages-2166833916-1024x683.jpg");
+}
+
+
+/*
+@keyframes backspin {
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
+}
+.backspin{animation:backspin 3s linear;}
+*/
+
