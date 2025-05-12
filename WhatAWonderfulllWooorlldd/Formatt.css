@@ -34,11 +34,11 @@ table {
 }
 
 
-/*
+
 @keyframes backspin {
 	from{transform:rotate(0deg)}
 	to{transform:rotate(360deg)}
 }
 .backspin{animation:backspin 3s linear;}
-*/
+
 
