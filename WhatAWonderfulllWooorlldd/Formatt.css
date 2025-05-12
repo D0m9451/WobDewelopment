@@ -23,22 +23,61 @@ table {
 	width: 100%
 }
 
+th {
+	color: red;
+	background-color: #898f8b;
+	border: 3px solid black
+}
+
+a {
+	color: black;
+	background-color: #898f8b;
+	border: 3px solid black
+}
+
 .machu {
 	background-image: url("https://i.natgeofe.com/n/819ea774-aa80-435e-af5a-ae56efee7ce3/92491.jpg");
+	background-size: 700px;
 }
 .collosium {
 	background-image: url("https://cdn.britannica.com/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg");
+	background-size: 700px;
 }
 .christ {
 	background-image: url("https://news.artnet.com/app/news-upload/2024/10/GettyImages-2166833916-1024x683.jpg");
+	background-size: 700px;
+}
+.china {
+	background-image: url("https://cdn.britannica.com/82/94382-050-20CF23DB/Great-Wall-of-China-Beijing.jpg");
+	background-size: 700px;
+}
+.chicken {
+	background-image: url("https://thegrand.moonpalace.com/chichen-itza-deluxe-tour-moon-palace-the-grand_32029233b2.webp");
+	background-size: 700px;
+}
+.taj {
+	background-image: url("https://cdn.getyourguide.com/img/tour/644a7524ad400.jpeg/146.jpg");
+	background-size: 600px;
+}
+.petra {
+	background-image: url("https://cdn.britannica.com/88/189788-050-9B5DB3A4/Al-Dayr-Petra-Jordan.jpg");
+	background-size: 500px;
+}
+.sides {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_C_cYFmEs4mxC25PJo41qn7IN0riKafCu4w&s");
 }
 
 
-
-@keyframes backspin {
+@keyframes bsp {
 	from{transform:rotate(0deg)}
 	to{transform:rotate(360deg)}
 }
-.backspin{animation:backspin 3s linear;}
+.bsp{animation:bsp 5s linear;}
+
+@keyframes bsn {
+	from{transform:rotate(0deg)}
+	to{transform:rotate(-360deg)}
+}
+.bsn{animation:bsn 5s linear;}
 
 
