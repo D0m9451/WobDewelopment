@@ -95,12 +95,12 @@ img {
 	from{transform:rotate(0deg)}
 	to{transform:rotate(360deg)}
 }
-.bsp{animation:bsp 2s linear;}
+.bsp{animation:bsp 1s linear;}
 
 @keyframes bsn {
 	from{transform:rotate(0deg)}
 	to{transform:rotate(-360deg)}
 }
-.bsn{animation:bsn 2s linear;}
+.bsn{animation:bsn 1s linear;}
 
 
