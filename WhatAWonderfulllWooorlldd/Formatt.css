@@ -1,6 +1,6 @@
 body {
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_C_cYFmEs4mxC25PJo41qn7IN0riKafCu4w&s");
-
+	background-size: 300px;
 }
 
 
@@ -14,6 +14,11 @@ h2 {
 	color: red;
 	background-color: #898f8b;
 	border: 3px solid black;
+}
+h3 {
+	color: blue;
+	background-color: #898f8b;
+	border: 3px solid black
 }
 
 table {
@@ -34,6 +39,24 @@ a {
 	background-color: #898f8b;
 	border: 3px solid black
 }
+
+/*sub pages*/
+
+p {
+	color: black;
+	background-color: #898f8b;
+	border: 3px solid black
+}
+ul {
+	color: white;
+	background-color: black;
+	border: 3px solid white
+}
+img {
+	border: 6px solid black
+}
+
+
 
 .machu {
 	background-image: url("https://i.natgeofe.com/n/819ea774-aa80-435e-af5a-ae56efee7ce3/92491.jpg");
@@ -72,12 +95,12 @@ a {
 	from{transform:rotate(0deg)}
 	to{transform:rotate(360deg)}
 }
-.bsp{animation:bsp 5s linear;}
+.bsp{animation:bsp 2s linear;}
 
 @keyframes bsn {
 	from{transform:rotate(0deg)}
 	to{transform:rotate(-360deg)}
 }
-.bsn{animation:bsn 5s linear;}
+.bsn{animation:bsn 2s linear;}
 
 
