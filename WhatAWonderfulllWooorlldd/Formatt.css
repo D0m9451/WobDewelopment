@@ -93,14 +93,14 @@ img {
 
 @keyframes bsp {
 	from{transform:rotate(0deg)}
-	to{transform:rotate(360deg)}
+	to{transform:rotate(3600deg)}
 }
-.bsp{animation:bsp 1s linear;}
+.bsp{animation:bsp 5s linear;}
 
 @keyframes bsn {
 	from{transform:rotate(0deg)}
-	to{transform:rotate(-360deg)}
+	to{transform:rotate(-3600deg)}
 }
-.bsn{animation:bsn 1s linear;}
+.bsn{animation:bsn 4s linear;}
 
 
