@@ -95,7 +95,7 @@ img {
 	from{transform:rotate(0deg)}
 	to{transform:rotate(3600deg)}
 }
-.bsp{animation:bsp 4s linear;}
+.bsp{animation:bsp 5s linear;}
 
 @keyframes bsn {
 	from{transform:rotate(0deg)}
